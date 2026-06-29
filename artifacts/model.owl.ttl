@@ -1,0 +1,18 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix prof: <http://www.w3.org/ns/dx/prof/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <https://example.com/vocabulary#>.
+
+<https://example.com/vocabulary#> a owl:Ontology, prof:Profile.
+:upsetGuy a owl:Class, rdfs:Class;
+    rdfs:label "Upset Guy"@en;
+    rdfs:isDefinedBy <https://example.com/vocabulary#>.
+:abruptState a rdf:Property, owl:ObjectProperty;
+    rdfs:label "Abrupt State"@en;
+    rdfs:isDefinedBy <https://example.com/vocabulary#>;
+    rdfs:domain :upsetGuy;
+    rdfs:range :ecstaticMonth.
+:ecstaticMonth a owl:Class, rdfs:Class;
+    rdfs:label "Ecstatic Month"@en;
+    rdfs:isDefinedBy <https://example.com/vocabulary#>.
