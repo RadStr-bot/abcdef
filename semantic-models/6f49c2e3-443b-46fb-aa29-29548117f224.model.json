@@ -1,0 +1,59 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "97baa3bb-e448-4950-b4c0-b203f269803b",
+  "modelAlias": "e",
+  "baseIri": "https://example.com/vocabulary#",
+  "entities": {
+    "019f1508-9e4b-715d-b7c2-b692be035204": {
+      "iri": "upsetGuy",
+      "name": {
+        "en": "Upset Guy"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "019f1508-9e4b-715d-b7c2-b692be035204",
+      "type": [
+        "class"
+      ]
+    },
+    "019f1508-a90b-70f1-8e42-7441e041af65": {
+      "iri": "ecstaticMonth",
+      "name": {
+        "en": "Ecstatic Month"
+      },
+      "description": {},
+      "externalDocumentationUrl": null,
+      "id": "019f1508-a90b-70f1-8e42-7441e041af65",
+      "type": [
+        "class"
+      ]
+    },
+    "019f1508-a90d-717e-a4ae-cf3ff4b367a0": {
+      "ends": [
+        {
+          "iri": null,
+          "name": {},
+          "description": {},
+          "concept": "019f1508-9e4b-715d-b7c2-b692be035204",
+          "externalDocumentationUrl": null
+        },
+        {
+          "name": {
+            "en": "Abrupt State"
+          },
+          "description": {},
+          "concept": "019f1508-a90b-70f1-8e42-7441e041af65",
+          "iri": "abruptState",
+          "externalDocumentationUrl": ""
+        }
+      ],
+      "id": "019f1508-a90d-717e-a4ae-cf3ff4b367a0",
+      "type": [
+        "relationship"
+      ],
+      "iri": null,
+      "name": {},
+      "description": {}
+    }
+  }
+}

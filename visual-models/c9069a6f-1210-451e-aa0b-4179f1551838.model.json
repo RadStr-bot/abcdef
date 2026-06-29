@@ -1,0 +1,57 @@
+{
+  "identifier": "8ec27f4d-78f3-4e82-a6ec-b14ca472af5f",
+  "version": 1,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": [
+    {
+      "identifier": "8ec27f4d-78f3-4e82-a6ec-b14ca472af5f-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Main view"
+      }
+    },
+    {
+      "model": "97baa3bb-e448-4950-b4c0-b203f269803b",
+      "representedEntity": "019f1508-9e4b-715d-b7c2-b692be035204",
+      "position": {
+        "x": 600,
+        "y": 420,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "logt2"
+    },
+    {
+      "model": "97baa3bb-e448-4950-b4c0-b203f269803b",
+      "representedEntity": "019f1508-a90b-70f1-8e42-7441e041af65",
+      "position": {
+        "x": 820,
+        "y": 160,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "hx6vml"
+    },
+    {
+      "model": "97baa3bb-e448-4950-b4c0-b203f269803b",
+      "representedRelationship": "019f1508-a90d-717e-a4ae-cf3ff4b367a0",
+      "waypoints": [],
+      "visualSource": "logt2",
+      "visualTarget": "hx6vml",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "72uyk"
+    }
+  ]
+}
